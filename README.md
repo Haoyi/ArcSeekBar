@@ -61,21 +61,21 @@ ArcSeekBar for Android 是一个弧形的拖动条进度控件，配置参数完
 ### Maven：
 ```maven
 <dependency>
-  <groupId>com.king.view</groupId>
+  <groupId>com.xiaoyan</groupId>
   <artifactId>arcseekbar</artifactId>
-  <version>1.0.2</version>
+  <version>1.0.0</version>
   <type>pom</type>
 </dependency>
 ```
 ### Gradle:
 ```gradle
-implementation 'com.king.view:arcseekbar:1.0.2'
+implementation 'com.xiaoyan:arcseekbar:1.0.0'
 ```
 
 ### Lvy:
 ```lvy
-<dependency org='com.king.view' name='arcseekbar' rev='1.0.2'>
-  <artifact name='$AID' ext='pom'></artifact>
+<dependency org='com.xiaoyan' name='arcseekbar' rev='1.0.0'>
+  <artifact name='arcseekbar' ext='pom' ></artifact>
 </dependency>
 ```
 
