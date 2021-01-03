@@ -1,4 +1,4 @@
-package com.king.view.arcseekbar;
+package com.xiaoyan.arcseekbar;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.king.view.arcseekbar.test", appContext.getPackageName());
+        assertEquals("com.xiaoyan.arcseekbar.test", appContext.getPackageName());
     }
 }

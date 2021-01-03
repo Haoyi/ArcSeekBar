@@ -92,7 +92,7 @@ allprojects {
 
 布局示例
 ```Xml
-    <com.king.view.arcseekbar.ArcSeekBar
+    <com.xiaoyan.arcseekbar.ArcSeekBar
         android:id="@+id/arcSeekBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>

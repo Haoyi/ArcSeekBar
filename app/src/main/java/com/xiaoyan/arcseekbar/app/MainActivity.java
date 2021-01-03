@@ -1,16 +1,13 @@
-package com.king.view.arcseekbar.app;
+package com.xiaoyan.arcseekbar.app;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.content.ContextCompat;
-
-import android.graphics.Color;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 
-import com.king.view.arcseekbar.ArcSeekBar;
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.xiaoyan.arcseekbar.ArcSeekBar;
 
 
 public class MainActivity extends AppCompatActivity {

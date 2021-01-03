@@ -1,11 +1,11 @@
-package com.king.view.arcseekbar.app;
+package com.xiaoyan.arcseekbar.app;
 
 import android.content.Context;
 
 import androidx.test.platform.app.InstrumentationRegistry;
 import androidx.test.runner.AndroidJUnit4;
 
-import org.junit.Test;
+import org.testng.annotations.AfterTest;
 import org.junit.runner.RunWith;
 
 import static org.junit.Assert.*;
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.king.view.arcseekbar.app", appContext.getPackageName());
+        assertEquals("com.xiaoyan.arcseekbar.app", appContext.getPackageName());
     }
 }

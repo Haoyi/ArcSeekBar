@@ -1,4 +1,4 @@
-package com.king.view.arcseekbar.app;
+package com.xiaoyan.arcseekbar.app;
 
 import org.junit.Test;
 
