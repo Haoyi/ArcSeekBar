@@ -12,6 +12,7 @@
         <attr name="arcProgressColor" format="color"/>
         <attr name="arcStartAngle" format="integer"/>
         <attr name="arcSweepAngle" format="integer"/>
+        <attr name="arcDiameter" format="integer"/>
         <attr name="arcMax" format="integer"/>
         <attr name="arcProgress" format="integer"/>
         <attr name="arcDuration" format="integer"/>

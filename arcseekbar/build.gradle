@@ -9,8 +9,6 @@ android {
     defaultConfig {
         minSdkVersion 16
         targetSdkVersion 30
-        versionCode 100
-        versionName "1.0.0"
     }
 
     buildTypes {
@@ -30,7 +28,7 @@ dependencies {
     androidTestImplementation 'junit:junit:4.12'
 }
 // 根节点添加
-version = "1.0.0"
+version = "1.0.2"
 
 def siteUrl = 'https://github.com/Haoyi/ArcSeekBar'    // project homepage
 def gitUrl = 'https://github.com/Haoyi/ArcSeekBar.git' // project git

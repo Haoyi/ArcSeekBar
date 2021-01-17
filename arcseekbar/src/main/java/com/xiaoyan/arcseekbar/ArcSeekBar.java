@@ -19,9 +19,6 @@ import android.view.MotionEvent;
 import android.view.View;
 
 
-/**
- * @author <a href="mailto:jenly1314@gmail.com">Jenly</a>
- */
 public class ArcSeekBar extends View {
 
 
@@ -53,7 +50,10 @@ public class ArcSeekBar extends View {
      * 扫描角度(一个圆)
      */
     private int mSweepAngle = 360;
-
+    /**
+     * 圆的直径(从外沿计算)
+     */
+    private int mDiameter = 200;
     /**
      * 圆心坐标x
      */
@@ -285,6 +285,8 @@ public class ArcSeekBar extends View {
                 mStartAngle = a.getInt(attr,mStartAngle);
             }else if(attr == R.styleable.ArcSeekBar_arcSweepAngle){
                 mSweepAngle = a.getInt(attr,mSweepAngle);
+            }else if(attr == R.styleable.ArcSeekBar_arcDiameter){
+                mDiameter = a.getInt(attr,mDiameter);
             }else if(attr == R.styleable.ArcSeekBar_arcMax){
                 int max = a.getInt(attr,mMax);
                 if(max > 0){
@@ -386,7 +388,7 @@ public class ArcSeekBar extends View {
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
 
-        int defaultValue = (int)TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,200,getDisplayMetrics());
+        int defaultValue = (int)TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,mDiameter,getDisplayMetrics());
 
         int width = measureHandler(widthMeasureSpec,defaultValue);
         int height = measureHandler(heightMeasureSpec,defaultValue);
